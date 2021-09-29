@@ -1,0 +1,12 @@
+directories:
+  output: dist
+  buildResources: build
+appId: order-list-app
+win:
+  target:
+    - nsis
+nsis:
+  uninstallDisplayName: Order List
+  allowToChangeInstallationDirectory: true
+files: []
+electronVersion: 15.0.0
