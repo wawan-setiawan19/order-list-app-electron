@@ -1,12 +1,10 @@
 directories:
   output: dist
   buildResources: build
-appId: order-list-app
-win:
-  target:
-    - nsis
+appId: com.one.app
+productName: Order List App
+target: NSIS
 nsis:
-  uninstallDisplayName: Order List
   allowToChangeInstallationDirectory: true
-files: []
+  oneClick: false
 electronVersion: 15.0.0
